@@ -9,9 +9,3 @@ let score = 0;
             score++;
             scoreDisplay.textContent = score;
         });
-
-        // Reset the score
-        resetButton.addEventListener('click', () => {
-            score = 0;
-            scoreDisplay.textContent = score;
-        });
