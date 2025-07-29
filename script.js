@@ -3,7 +3,6 @@ let score = 0;
         // Increment score on cookie click
         const cookie = document.getElementById('cookie');
         const scoreDisplay = document.getElementById('score');
-        const resetButton = document.getElementById('reset-button');
 
         cookie.addEventListener('click', () => {
             score++;
