@@ -70,25 +70,7 @@
     <br><br>
     <button id="reset-button">Reset Score</button>
 
-    <script>
-        let score = 0;
-
-        // Increment score on cookie click
-        const cookie = document.getElementById('cookie');
-        const scoreDisplay = document.getElementById('score');
-        const resetButton = document.getElementById('reset-button');
-
-        cookie.addEventListener('click', () => {
-            score++;
-            scoreDisplay.textContent = score;
-        });
-
-        // Reset the score
-        resetButton.addEventListener('click', () => {
-            score = 0;
-            scoreDisplay.textContent = score;
-        });
-    </script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
