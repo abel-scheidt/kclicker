@@ -5,17 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" 
           content="width=device-width, initial-scale=1.0">
-    <title>Cookie Clicker Game</title>
+    <title>KClicker</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <h2>Cookie Clicker Game</h2>
-    <p>Score: <span id="score">0</span></p>
-    <div id="cookie">
+    <div class="game-layout">
+    <div id="cookie-area">
+        <p>Score: <span id="score">0</span></p>
+        <div id="cookie"></div>
     </div>
+    <div id="building-area">
+      <!-- buildings -->
+    </div>
+    <div id="upgrade-area">
+      <!-- upgrades-->
+    </div>
+  </div>
     <br><br>
-    <button id="reset-button">Reset Score</button>
 
     <script src="script.js" defer></script>
 </body>
