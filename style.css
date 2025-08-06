@@ -25,7 +25,10 @@ body {
         #cookie {
             width: 200px;
             height: 200px;
-            background-color: #d2691e;
+            background-image: url('cookie.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             border-radius: 50%;
             display: inline-block;
             cursor: pointer;
