@@ -23,13 +23,13 @@ body {
 #upgrade-area { background-color: #fff8e1; }
 
         #cookie {
-            width: 200px;
+            width: 180px;
             height: 200px;
             background-image: url('kauan.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            border-radius: 50%;
+            clip-path: polygon(48% 1%, 80% 10%, 94% 43%, 87% 70%, 78% 73%, 57% 96%, 33% 99%, 13% 69%, 12% 43%, 16% 18%);
             display: inline-block;
             cursor: pointer;
             transition: transform 0.1s, box-shadow 0.1s;
